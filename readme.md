@@ -5,15 +5,21 @@
 [![Coverage Status](https://coveralls.io/repos/weew/php-echo-server/badge.svg?branch=master&service=github)](https://coveralls.io/github/weew/php-echo-server?branch=master)
 [![License](https://poser.pugx.org/weew/php-echo-server/license)](https://packagist.org/packages/weew/php-echo-server)
 
+## Table of contents
+
+- [Installation](#installation)
+- [Introduction](#introduction)
+- [Example](#example)
+
 ## Installation
 
 `composer require weew/php-echo-server`
 
 ## Introduction
 
-The echo server will always return a serialized version of the incoming request.
+The echo server will always return a serialized version of the incoming request. It is meant to be used as an endpoint for your API tests.
 
-## Example response
+## Example
 
 You can see it in action at [http://echo.maxim.io](http://echo.maxim.io)
 
