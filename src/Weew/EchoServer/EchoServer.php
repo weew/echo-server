@@ -12,6 +12,11 @@ class EchoServer {
     protected $trunksPath;
 
     /**
+     * @var bool
+     */
+    protected $trunkAll = false;
+
+    /**
      * EchoServer constructor.
      */
     public function __construct() {
@@ -55,9 +60,9 @@ class EchoServer {
      * @param array $data
      */
     protected function addToTrunk(IHttpRequest $request, array $data) {
-        $trunk = $request->getUrl()->getQuery()->get('trunk');
+        $trunk = $request->getUrl()->getQuery()->get('trunk', 'default');
 
-        if ($trunk !== null) {
+        if ($trunk !== null || $this->trunkAll) {
             $trunk = str_replace(['/', '.'], '', $trunk);
 
             if (strlen($trunk) > 0) {
