@@ -1,11 +1,11 @@
 # Echo Server
 
-[![Build Status](https://img.shields.io/travis/weew/php-echo-server.svg)](https://travis-ci.org/weew/php-echo-server)
-[![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-echo-server.svg)](https://scrutinizer-ci.com/g/weew/php-echo-server)
-[![Test Coverage](https://img.shields.io/coveralls/weew/php-echo-server.svg)](https://coveralls.io/github/weew/php-echo-server)
-[![Dependencies](https://img.shields.io/versioneye/d/php/weew:php-echo-server.svg)](https://versioneye.com/php/weew:php-echo-server)
-[![Version](https://img.shields.io/packagist/v/weew/php-echo-server.svg)](https://packagist.org/packages/weew/php-echo-server)
-[![Licence](https://img.shields.io/packagist/l/weew/php-echo-server.svg)](https://packagist.org/packages/weew/php-echo-server)
+[![Build Status](https://img.shields.io/travis/weew/echo-server.svg)](https://travis-ci.org/weew/echo-server)
+[![Code Quality](https://img.shields.io/scrutinizer/g/weew/echo-server.svg)](https://scrutinizer-ci.com/g/weew/echo-server)
+[![Test Coverage](https://img.shields.io/coveralls/weew/echo-server.svg)](https://coveralls.io/github/weew/echo-server)
+[![Dependencies](https://img.shields.io/versioneye/d/php/weew:echo-server.svg)](https://versioneye.com/php/weew:echo-server)
+[![Version](https://img.shields.io/packagist/v/weew/echo-server.svg)](https://packagist.org/packages/weew/echo-server)
+[![Licence](https://img.shields.io/packagist/l/weew/echo-server.svg)](https://packagist.org/packages/weew/echo-server)
 
 ## Table of contents
 
@@ -15,7 +15,7 @@
 
 ## Installation
 
-`composer require weew/php-echo-server`
+`composer require weew/echo-server`
 
 ## Introduction
 
